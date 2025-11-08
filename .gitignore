@@ -1,0 +1,28 @@
+# Environment files
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Docker volumes and build files
+postgres_data_new/
+*.log
+*.pid
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
